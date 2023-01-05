@@ -1,0 +1,30 @@
+.navbar nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s;
+}
+
+.navbar{
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../kepek/bg.jpg);
+    background-position: center;
+    padding: 5%;
+    color: white;
+    font-size: large;
+    
+}
+
+.navbar nav ul li:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+#logo{
+    height: 100px;
+    width: 80px;
+    margin-right: 25px;
+}

@@ -1,0 +1,24 @@
+footer{
+    background-color: #414361;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+img{
+    width: 20%;
+}
+
+footer tr td{
+    padding: 1.5%;
+}
+
+#kapcsolat, #adatkezeles{
+    width: 250px;
+    display: inline-block;
+}
+
+#kartyas-fizetes{
+    display: inline-block;
+    width: 1200px;
+}

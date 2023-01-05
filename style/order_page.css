@@ -1,0 +1,37 @@
+#rendeles-form{
+    font-size: large;
+}
+
+#order-button{
+    padding: 0.3rem;
+    background-color: #1b0883;
+    color:white;
+    font-size: 20px;
+    border-radius: 25px;
+    border: none;
+    padding: 15px;
+    transition: 0.3s all;
+    cursor: pointer;
+    margin-top:25px ;
+}
+
+#rendeles-form label{
+    padding-top: 0.2rem;
+    padding-bottom: 0.5rem;
+}
+
+.rendeles-input{
+    font-size: large;
+    padding: 5px;
+    background-color: #e4e4e4;
+    border-color: rgb(194, 188, 188) ;
+}
+
+#rendeles-div{
+    text-align: center;
+}
+
+#order-button:hover{
+    background-color: #7192BE;
+    color: black;
+}

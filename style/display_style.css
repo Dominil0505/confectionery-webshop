@@ -1,0 +1,131 @@
+*{
+  font-family: 'Lobster', cursive;
+  color: white;
+  box-sizing: border-box;
+  font-size: 1vw;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #242582;
+}
+
+.filter-button{
+  border: none;
+  transition: 0.3s all;
+  background-color: #7F2CCB;
+  padding: 1%;
+  margin-right: 1%;
+  border-radius: 25px;
+  font-size: 100%;
+}
+
+.filter-button:hover{
+  cursor: pointer;
+  font-size: 115%;
+}
+
+#filter-div{
+  margin-top: 2%;
+  background-color: #F64C72;
+  padding: 1%;
+  text-align: center;
+}
+
+/* 
+
+NEM TUDOM MI EZ
+
+#order_button {
+  width: 10%;
+  padding: 2% 25% 2% 2%;
+  text-align: center;
+  margin: 10px 5px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 2px solid #009688;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+  transition: 0.3s all;
+}*/
+
+.cookies-pict{
+  width: 50%;
+}
+
+#remove, #open{
+  margin-left: 20px;
+  width: 20px;
+}
+
+.sutik{
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  padding: 1% 2% 1% 2%;
+  margin: 1% 2% 3% 1%;
+  text-align: center;
+  background-color: #553D67;
+  border-radius: 25px;
+  width: 20%;
+}
+
+.kulso-div{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cart-button{
+  margin-top: 2%;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: blue;
+  padding: 2%;
+  border-radius: 25px;
+  font-weight: bold;
+  border:none;
+}
+
+.cart-button:hover{
+  background-color: #7192BE;
+  color: black;
+}
+
+#opening{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  background-color: #2E282A;
+  padding: 5px;
+  padding-left: 5px;
+  width: 200px;
+  text-transform: uppercase;
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#debut{
+  text-transform: uppercase;
+  display: inline-block;
+  background-color: #2E282A;
+  text-align: center;
+  width: 500px;
+  padding: 5px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-right: 300px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#bevezeto{
+  text-align: center;
+}
+
+#cart{
+  margin-top: 15px;
+  background-color: #f64c72;
+  width: 250px;
+  padding: 15px;
+  border-radius: 25px;
+}
