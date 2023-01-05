@@ -12,9 +12,9 @@ class Display extends Dbh{
 
   public function kiir($data)
   {
-    echo '<div class="kulso-div">';
+    echo '<div id="outer-div">';
     foreach ($data as $key => $value) {
-      echo '<div class="sutik">';
+      echo '<div class="cakes-div">';
         echo '<img src="../kepek/'.$value['kep'].'" class="cookies-pict"> <br>';
         echo 'Név: '.$value['etel_nev'].'<br>';
         echo '<b>Ár: '.$value['ar'].'</b><br>';

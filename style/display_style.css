@@ -8,7 +8,27 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: #242582;
+  background-color: #1a1b4b;
+}
+
+.second
+{
+    background-color: #f7a400;
+    color:#ffffff;
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+    padding: 0.3rem;
+    padding-left: 2rem;
+    text-align: left;
+    margin-top: 25px;
+    font-size: 1.5vw;
+}
+
+#filter-div{
+  margin-top: 2%;
+  background-color: #3e4491;
+  padding: 1%;
+  text-align: center;
 }
 
 .filter-button{
@@ -26,31 +46,6 @@ body{
   font-size: 115%;
 }
 
-#filter-div{
-  margin-top: 2%;
-  background-color: #F64C72;
-  padding: 1%;
-  text-align: center;
-}
-
-/* 
-
-NEM TUDOM MI EZ
-
-#order_button {
-  width: 10%;
-  padding: 2% 25% 2% 2%;
-  text-align: center;
-  margin: 10px 5px;
-  border-radius: 25px;
-  font-weight: bold;
-  border: 2px solid #009688;
-  cursor: pointer;
-  background-color: green;
-  color: white;
-  transition: 0.3s all;
-}*/
-
 .cookies-pict{
   width: 50%;
 }
@@ -60,36 +55,41 @@ NEM TUDOM MI EZ
   width: 20px;
 }
 
-.sutik{
+#outer-div{
+  text-align: center;
+}
+
+.cakes-div{
+  margin: 1em 2em 4em 1em;
   display: inline-block;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   padding: 1% 2% 1% 2%;
-  margin: 1% 2% 3% 1%;
   text-align: center;
-  background-color: #553D67;
+  background-color: #36117e;
   border-radius: 25px;
   width: 20%;
 }
 
-.kulso-div{
-  margin-top: 20px;
-  text-align: center;
-}
-
 .cart-button{
-  margin-top: 2%;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid;
+  margin: 0.3em 0.3em 0.3em 0;
+  border-radius: 1em;
+  box-sizing: border-box;
   text-decoration: none;
+  font-family:'Roboto',sans-serif;
+  font-weight: 300;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.2s;
   cursor: pointer;
-  background-color: blue;
-  padding: 2%;
-  border-radius: 25px;
-  font-weight: bold;
-  border:none;
+  background-color: #292a73;
 }
 
 .cart-button:hover{
-  background-color: #7192BE;
-  color: black;
+  color: #000000;
+  background-color: #FFFFFF;
 }
 
 #opening{
@@ -118,7 +118,7 @@ NEM TUDOM MI EZ
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-#bevezeto{
+#Introduction{
   text-align: center;
 }
 

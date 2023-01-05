@@ -3,7 +3,7 @@
 include('navbar.php');
 
 echo '<div id="main">';
-    echo '<div class="masodik">';
+    echo '<div class="second">';
       echo '<h2>Sütemények</h2>';
     echo '</div>';
 
@@ -12,7 +12,7 @@ echo '<div id="main">';
     echo '<div id="tablazat">';
     echo '</div>';
     
-    echo '<div id="bevezeto">';
+    echo '<div id="Introduction">';
 
     echo '<div id="debut">';
         echo '<h1><u>Rólunk</u></h1>';
@@ -38,6 +38,4 @@ echo '<script>';
 echo '</script>';
 include('footer.php');
 
-
-// Készítette Král Zsombor, Bekő Virág, Szabó Dominik
 ?>

@@ -3,7 +3,7 @@ include('navbar.php');
 
     echo '
         <h1 id="elso">Rendelés</h1>
-        <h1 class="masodik">Szállítási adatok</h1>
+        <h1 class="second">Szállítási adatok</h1>
         <div id="rendeles-div">
             <form id="rendeles-form" method="post" action="../functions/save_data.php">
                 Teljes név*<br><label> <input type="text" name="nev" class="rendeles-input" required placeholder="pl.: Kovács István"></label><br>
@@ -12,7 +12,7 @@ include('navbar.php');
                 Település*<br><label> <input type="text" name="telepules" class="rendeles-input" required placeholder="pl.: Kecskemét"></label><br>
                 Utca* <br><label><input type="text" name="utcanev" class="rendeles-input" required placeholder="pl.: Izsáki út"></label><br>
                 Házszám* <br><label><input type="text" name="hazszam" min="0" class="rendeles-input" required placeholder="pl.: 8"></label><br>
-                <h2 class="masodik">Megjegyzés</h2>
+                <h2 class="second">Megjegyzés</h2>
                 <h2>Megjegyzés a rendeléshez</h2>
                 <textarea rows="5" cols="60" name="megjegyzes" id="rendeles-megjegyzes"></textarea><br>
                 <button id="order-button" type="submit"> Rendelés </button>

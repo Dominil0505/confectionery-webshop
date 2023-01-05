@@ -31,6 +31,9 @@
     <link rel="stylesheet" href="../style/succesfull-order.css">
     <link rel="stylesheet" href="../style/registration_style.css">
     
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 
     <!-- SCRIPT -->
     <script src="../assets/js/main.js"></script>
