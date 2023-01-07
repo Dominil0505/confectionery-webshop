@@ -1,2 +1,2 @@
 # confectionery-webshop
-This is a simple webshop.
+Ez egy egyszerű webshop, webfejlesztés I. tantárgyra készítettem beadandóként
